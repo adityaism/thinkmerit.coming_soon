@@ -1,0 +1,66 @@
+<html>
+	<head>
+	<title>ThinkMerit</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	</head>
+	<body>
+		<div id="container">
+			<!-- <div class="mask"></div> -->
+			<!-- <h2>Thinkmerit</h2> -->
+			<div class="block">
+				<img src="/assets/img/logo.png">
+			</div>
+			<h4><br><br>Coming Soon</h4>
+		</div>
+	</body>
+	<style type="text/css">
+	*{
+		padding: 0;
+		margin: 0;
+	}
+		body,#container{
+			display: flex;
+			width: 100%;
+			height: 100%;
+		}
+		#container{
+			background-color: #9aa6ab;
+			background-image:  url(assets/img/bg.jpg);
+			background-size: cover;
+			font-family: 'Roboto', sans-serif;
+			color: #fff;
+			align-items: center;
+  			justify-content: center;
+  			background-blend-mode:overlay;
+			flex-direction: column;
+			flex-wrap: nowrap;
+		}
+		#container h2{
+			font-size:109px;
+			display: block
+		}
+		#container h4{
+			font-size: 30px;
+			text-shadow: 1px 1px 5px #000;
+		}
+		.block{
+
+		}
+		@media screen and (max-width: 480px){
+			#container{
+				background-color: #b2b3b3;
+			}
+			#container h2{
+				font-size:89px;
+				display: block
+			}
+			#container h2{
+				font-size: 15px
+			}
+		}
+		/*.mask{
+			opacity: 0.5;
+			background: rgba(0,0,0,0.5);
+		}*/
+	</style>
+</html>
